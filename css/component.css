@@ -2368,7 +2368,7 @@
 }
 
 .menu--juliet .menu__item::before,
-.menu--juliet .menu__item::after, 
+.menu--juliet .menu__item::after,
 .menu--juliet .menu__item--current::before,
 .menu--juliet .menu__item--current::after {
     position: absolute;
@@ -2499,11 +2499,32 @@
 /* (Please copy these two lines and insert after your custom styles) */
 
 
-/* Name (by @you) */
+/* Servin Nissen (by http://servinnissen.nl/) */
 
 /* [Your styles here]*/
+#angelo .menu__item{
+	border: 3px solid #4e3c3e;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 1em;
+}
+#angelo .menu__link {
+	background: #4e3c3e;
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 7px 10px;
+	font-size: 16px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#angelo .menu__item--current .menu__link{
+	border-color: #4e3c3e;
+}
 
-/* End: Name Styles */
+/* End: Angelo */
 
 
 /* Media queries */
